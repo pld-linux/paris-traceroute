@@ -1,4 +1,5 @@
 Summary:	A new version of a well-known network diagnosis and measurement tool
+Summary(pl.UTF-8):	Nowa wersja dobrze znanego narzędzia do diagnostyki i pomiarów sieci
 Name:		paris-traceroute
 Version:	0.92
 Release:	1
@@ -14,6 +15,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Paris traceroute is a new version of the well-known network diagnosis
 and measurement tool. It addresses problems caused by load balancers
 with the initial implementation of traceroute.
+
+%description -l pl.UTF-8
+Paris traceroute to nowa wersja dobrze znanego narzędzia do
+diagnostyki i pomiarów sieci. Radzi sobie z problemami powodowanymi
+przez load balancery ze wstępną implementacją traceroute.
 
 %prep
 %setup -q -n %{name}-%{version}-dev
